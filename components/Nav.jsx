@@ -26,10 +26,14 @@ const Nav = () => {
               </li>
             </ul>
           </div>
-          
+
           <div className="text-sm tracking-wide m-auto mx-2 flex justify-center items-center rounded-[4px] border-[1px] w-20 h-10 text-center border-[#64ffda] text-[#64ffda]">
             Resume
           </div>
+            <span class="relative top-3 right-4 flex h-3 w-3">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-3 w-3 bg-[#64ffda]"></span>
+            </span>
         </div>
       </div>
     </div>

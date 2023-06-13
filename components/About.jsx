@@ -1,6 +1,9 @@
 import React from 'react'
-import {HiCodeBracket} from 'react-icons/hi'
+import {AiFillCaretRight} from 'react-icons/ai'
 const About = () => {
+
+   
+
   return (
     <div className='m-40'>
       <div>
@@ -12,13 +15,18 @@ const About = () => {
         </p>
         <p>Here are a few technologies I’ve been working with recently:</p>
         <div>
-            <ul className='grid grid-rows-4 mx-4 `list-image-[${HiCodeBracket}]` list:text-[#8892b0]  grid-flow-col'> 
-                <li>Javascript</li>
-                <li>React.js</li>
-                <li>Solidity</li>
-                <li>Typescript</li>
-                <li>Node.js</li>
-                <li>Web3</li>   
+            <ul className='w-1/2 mt-4 grid leading-loose tracking-wide grid-rows-4 mx-4 font-mono text-sm  list:text-[#8892b0]  grid-flow-col'> 
+                <li className='flex '><span className='text-[#64ffda] mt-1.5  '><AiFillCaretRight className='text-sm' /></span><span className='font-thin'>Javascript</span></li>
+
+                <li className='flex '><span className='text-[#64ffda] mt-1.5  '><AiFillCaretRight className='text-sm' /></span><span>React.js</span></li>
+
+                <li className='flex '><span className='text-[#64ffda] mt-1.5  '><AiFillCaretRight className='text-sm' /></span><span>Solidity</span></li>
+                
+                <li className='flex '><span className='text-[#64ffda] mt-1.5  '><AiFillCaretRight className='text-sm' /></span><span>Typescript</span></li>
+                
+                <li className='flex '><span className='text-[#64ffda] mt-1.5  '><AiFillCaretRight className='text-sm' /></span><span>Node.js</span></li>
+                
+                <li className='flex '><span className='text-[#64ffda] mt-1.5  '><AiFillCaretRight className='text-sm' /></span><span>Web3</span></li>  
             </ul>
         </div>
       </div>
