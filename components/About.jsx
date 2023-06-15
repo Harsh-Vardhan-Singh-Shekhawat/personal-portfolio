@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className='m-40'>
       <div>
-        <h1 ><span className='font-mono font-thin text-[24px] text-[#64ffda]'>01. </span><span className='font-semibold text-3xl'> About Me</span>  </h1>
+        <h1 ><span className='font-mono font-thin text-[24px] text-[#64ffda]'>01. </span><span className='font-semibold text-[#ccd6f6] text-3xl'> About Me</span>  </h1>
       </div>
       <div className='text-[#8892b0] w-[900px]'>
         <p className='my-10'>

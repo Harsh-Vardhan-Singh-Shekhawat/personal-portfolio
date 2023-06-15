@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* color: #ccd6f6; */
+  color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-end-rgb))
+      ) 
+     rgb(var(--background-start-rgb));
+    /* background-color: #ccf9e6; */
+    background-color: #13305c;
+}
+
+
+.name{
+    /* color: #ccd6f6; */
+    background: linear-gradient(to right, hsl(225, 100%, 91%) 0, hsl(0, 0%, 100%) 10%, hsl(216, 22%, 55%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  /*  */
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  140% {
+    background-position: 600px;
+  }
+}
+
+.name span {
+  transition: 0.5s ease-out;
+}
+.name:hover span:nth-child(1) {
+  margin-right: 5px; 
+}
+/* .name:hover span:nth-child(1):after {
+  content: "'";
+} */
+.name:hover span:nth-child(2) {
+  /* margin-left: 30px; */
+}
+.name:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+.btnhover:hover {
+  outline: none;
+  box-shadow: 3px 3px 0 0 var(--green);
+  transform: translate(-4px, -4px);
+  /* transition-delay:; */
+  /* box-shadow: #0af192; */
+}
+
+.foot {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+}
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+}
+
+.hex {
+  transform: rotate(90deg);
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 59px;
+  height: 49px; /* width * 0.866 */
+  background: #64ffda;
+  box-sizing: border-box;
+  -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+  -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+.hex-background {
+  position: absolute;
+  background-color: #13305c; 
+  top: 3px; /* equal to border thickness */
+  left: 2.8px; /* equal to border thickness */
+  width: 53px; /* container height - (border thickness * 2) */
+  height: 43px; /* container height - (border thickness * 2) */
+  -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+  -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
