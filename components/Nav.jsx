@@ -3,45 +3,33 @@ import Image from "next/image";
 import Logo from "../public/logo.png";
 import IconHex from "./Icons/Hex";
 import { BsHexagon } from "react-icons/bs";
-import { AiFillWindows } from "react-icons/ai";
-import {FiHexagon} from "react-icons/fi"
-import {TbHexagonLetterH} from "react-icons/tb"
-const Nav = () => {
+import Link from "next/link";
 
-  // var prevScrollpos = window.pageYOffset;
-  // window.onscroll = function () {
-  //   var currentScrollPos = window.pageYOffset;
-  //   if (prevScrollpos > currentScrollPos) {
-  //     document.getElementById("navbar").style.top = "0";
-  //   } else {
-  //     document.getElementById("navbar").style.top = "-50px";
-  //   }
-  //   prevScrollpos = currentScrollPos;
-  // };
+const Nav = () => {
 
   return (
     <div className="navbar   px-40 shadow-lg ">
       <div className="flex justify-between ">
         
-        <div className="">
+        <a href="/" className="">
           <BsHexagon className="relative top-3 text-[#64ffda] text-5xl"/>
           <p className=" text-[#64ffda] relative left-[17px] bottom-[27px] font-semibold text-xl">H</p>
-        </div>
+        </a>
 
         <div className="flex item-center font-mono relative right-10  ">
           <div className="flex items-center">
             <ul className="flex">
               <li className=" tracking-wide font-light text-[#ccd6f6] my-1 mx-4 transition duration-300 ease-in-out cursor-pointer text-sm hover:text-[#64ffda]">
-                <span className=" text-[#64ffda]">01. </span>About
+                <span className=" text-[#64ffda]">01. </span><Link href='/#about'>About</Link>
               </li>
               <li className="tracking-wide font-light text-[#ccd6f6] my-1 mx-4 transition duration-300 ease-in-out cursor-pointer text-sm hover:text-[#64ffda]">
-                <span className="text-[#64ffda]">02. </span>Experience
+                <span className="text-[#64ffda]">02. </span><Link href='/#jobs'>Experience</Link>
               </li>
               <li className="tracking-wide font-light text-[#ccd6f6] my-1 mx-4 transition duration-300 ease-in-out cursor-pointer text-sm hover:text-[#64ffda]">
-                <span className="text-[#64ffda]">03. </span>Work
+                <span className="text-[#64ffda]">03. </span><Link href='/#projects'>Work</Link>
               </li>
               <li className="tracking-wide font-light text-[#ccd6f6] my-1 mx-4 transition duration-300 ease-in-out cursor-pointer  text-sm hover:text-[#64ffda]">
-                <span className="text-[#64ffda]">04. </span>Contact
+                <span className="text-[#64ffda]">04. </span><Link href='/#contact'>Contact</Link>
               </li>
             </ul>
           </div>

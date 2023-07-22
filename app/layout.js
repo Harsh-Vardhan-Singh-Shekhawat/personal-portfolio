@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head className='text-5xl'>
-         <link  rel="shortcut icon" href="/logo.ico" />
+         <a rel="shortcut icon" href="./logo.ico" />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>

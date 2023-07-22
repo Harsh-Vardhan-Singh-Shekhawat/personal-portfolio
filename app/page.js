@@ -7,24 +7,18 @@ import Contact from '../components/Contact'
 import Projects from '../components/Projects'
 import Info from '../components/Info'
 import Experience from '../components/Experience'
+import MoreProjects from '../components/MoreProjects'
 
 export default function Home() {
   return (
     <main className=" bg-[#0a192f] ">
       <Nav />
-    {/* <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Main />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/project' element={<Projects />} />
-        <Route path='/contact' element={<Contact />} />
-
-      </Routes>
-    </BrowserRouter> */}
+    
       <Main />
       <About />
       <Experience />
       <Projects />
+      <MoreProjects />
       <Contact />
       <Info />
       
