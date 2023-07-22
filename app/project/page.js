@@ -1,15 +1,15 @@
 import React from "react";
-import fundmepreview from "../public/fundme.png";
+import fundmepreview from "../../public/fundme.png";
 import Image from "next/image";
 import Link from "next/link";
 import { FiGithub } from "react-icons/fi";
-import etheasepreview from '../public/ethease.png'
+import etheasepreview from '../../public/ethease.png'
 
 const Projects = () => {
   return (
     <div className="m-40">
       <div>
-        <h1>
+        <h1 className="">
           <span className="font-mono font-thin text-[24px] text-[#64ffda]">
             03.{" "}
           </span>
@@ -19,6 +19,8 @@ const Projects = () => {
           </span>{" "}
         </h1>
       </div>
+      <p className='w- border-[#243554] border-[1px]'></p>
+
       <div className="my-10">
         <div className="flex justify-between text-right mx-12 my-40">
           <Link className="" href="https://funddme.netlify.app/" target="blank">

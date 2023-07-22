@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Logo from "../public/logo.png";
+// import Logo from "../public/Images/logo.png";
 import IconHex from "./Icons/Hex";
 import { BsHexagon } from "react-icons/bs";
 import Link from "next/link";
@@ -20,16 +20,16 @@ const Nav = () => {
           <div className="flex items-center">
             <ul className="flex">
               <li className=" tracking-wide font-light text-[#ccd6f6] my-1 mx-4 transition duration-300 ease-in-out cursor-pointer text-sm hover:text-[#64ffda]">
-                <span className=" text-[#64ffda]">01. </span><Link href='/#about' >About</Link>
+                <span className=" text-[#64ffda]">01. </span><Link href='/about' >About</Link>
               </li>
               <li className="tracking-wide font-light text-[#ccd6f6] my-1 mx-4 transition duration-300 ease-in-out cursor-pointer text-sm hover:text-[#64ffda]">
-                <span className="text-[#64ffda]">02. </span><Link href='/#jobs'>Experience</Link>
+                <span className="text-[#64ffda]">02. </span><Link href='/experience'>Experience</Link>
               </li>
               <li className="tracking-wide font-light text-[#ccd6f6] my-1 mx-4 transition duration-300 ease-in-out cursor-pointer text-sm hover:text-[#64ffda]">
-                <span className="text-[#64ffda]">03. </span><Link href='/#projects'>Work</Link>
+                <span className="text-[#64ffda]">03. </span><Link href='/project'>Work</Link>
               </li>
               <li className="tracking-wide font-light text-[#ccd6f6] my-1 mx-4 transition duration-300 ease-in-out cursor-pointer  text-sm hover:text-[#64ffda]">
-                <span className="text-[#64ffda]">04. </span><Link href='/#contact'>Contact</Link>
+                <span className="text-[#64ffda]">04. </span><Link href='/contact'>Contact</Link>
               </li>
             </ul>
           </div>

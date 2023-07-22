@@ -11,6 +11,7 @@ const MoreProjects = () => {
           More Projects
         </h3>
         <div className="mx-24 grid grid-cols-3 grid-flow-row gap-10">
+        
           <Link
             className="transition transform hover:-translate-y-4 motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="/"
@@ -36,7 +37,7 @@ const MoreProjects = () => {
                 <h1 className="text-2xl text-[#ccd6f6] my-2 font-semibold">
                   Personal Portfolio
                 </h1>
-                <p className="text-[#a8b2d1]my-2">
+                <p className="text-[#a8b2d1] my-2">
                   A personal portfolio has been developed and designed to
                   showcase my professional background
                 </p>
@@ -75,7 +76,7 @@ const MoreProjects = () => {
                 <h1 className="text-2xl text-[#ccd6f6] my-2 font-semibold">
                   Fund Me
                 </h1>
-                <p className="text-[#a8b2d1]my-2">
+                <p className="text-[#a8b2d1] my-2">
                   A decentralized fundraising app on the Sepolia network enables
                   Ethereum-based fundraising and donations, ensuring secure and
                   transparent transactions within a trustless environment.
@@ -117,7 +118,7 @@ const MoreProjects = () => {
                 <h1 className="text-2xl text-[#ccd6f6] my-2 font-semibold">
                   Eth Ease
                 </h1>
-                <p className="text-[#a8b2d1]my-2">
+                <p className="text-[#a8b2d1] my-2">
                   A decentralized blockchain application for sending ethereum using metamask through out the world.
                 </p>
                 <p>
@@ -157,7 +158,7 @@ const MoreProjects = () => {
                 <h1 className="text-2xl text-[#ccd6f6] my-2 font-semibold">
                   Google Docs Clone
                 </h1>
-                <p className="text-[#a8b2d1]my-2">
+                <p className="text-[#a8b2d1] my-2">
                   A Google Docs alternative that replicates its features,
                   allowing users to create and edit document files along with
                   dowloading.
@@ -192,7 +193,7 @@ const MoreProjects = () => {
                 <h1 className="text-2xl text-[#ccd6f6] my-2 font-semibold">
                   AAVE Liquidity Protocol
                 </h1>
-                <p className="text-[#a8b2d1]my-2">
+                <p className="text-[#a8b2d1] my-2">
                   A smart contract built for lending and borrowing
                   cryptocurrency in lieu of interest earn on them.
                 </p>
@@ -226,7 +227,7 @@ const MoreProjects = () => {
                 <h1 className="text-2xl text-[#ccd6f6] my-2 font-semibold">
                   mySubGraph
                 </h1>
-                <p className="text-[#a8b2d1]my-2">
+                <p className="text-[#a8b2d1] my-2">
                   A subgraph using GrapghQl for fetching blockchain data on
                   basis of requirement on subgraph studio using polygon network
                 </p>

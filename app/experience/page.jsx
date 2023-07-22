@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div className="px-40 relative left-80">
       <div className="my-10">
-        <h1 >
+        <h1 className="flex" >
           <span className="font-mono font-thin text-[24px] text-[#64ffda]">
             02.{" "}
           </span>
@@ -15,7 +15,7 @@ const Experience = () => {
           </span>{" "}
         </h1>
       </div>
-      <p className='w-[300px] border-[#243554] border-[1px]'></p>
+      {/* <p className='w-full absolute bottom-10 border-[#243554] border-[1px]'></p> */}
 
 
       <div className="text-left">
