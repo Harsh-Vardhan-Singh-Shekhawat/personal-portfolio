@@ -7,7 +7,7 @@ import etheasepreview from '../../public/ethease.png'
 
 const Projects = () => {
   return (
-    <div className="m-40">
+    <div className="mx-40">
       <div>
         <h1 className="">
           <span className="font-mono font-thin text-[24px] text-[#64ffda]">
@@ -19,10 +19,11 @@ const Projects = () => {
           </span>{" "}
         </h1>
       </div>
-      <p className='w- border-[#243554] border-[1px]'></p>
+      <p className='w-[300px] relative bottom-2 left-[380px] border-[#243554] border-[1px]'></p>
+
 
       <div className="my-10">
-        <div className="flex justify-between text-right mx-12 my-40">
+        <div className="flex justify-between text-right mx-12 mb-40">
           <Link className="" href="https://funddme.netlify.app/" target="blank">
             <Image
               className="w-[600px] blur-sm hover:blur-none delay-1000 transition-transform"

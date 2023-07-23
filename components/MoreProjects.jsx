@@ -5,7 +5,7 @@ import Link from "next/link";
 import projects from "../static/ProjectData";
 const MoreProjects = () => {
   return (
-    <div className="text-center m-40">
+    <div className="text-center mb-40 mx-40 mt-[-100px]">
       <div>
         <h3 className="font-semibold text-[#ccd6f6]  mb-20 text-3xl">
           More Projects

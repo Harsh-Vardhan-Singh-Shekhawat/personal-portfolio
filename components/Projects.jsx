@@ -19,8 +19,10 @@ const Projects = () => {
           </span>{" "}
         </h1>
       </div>
-      <div className="my-10">
-        <div className="flex justify-between text-right mx-12 my-40">
+      <p className='w-[300px] relative bottom-2 left-[380px] border-[#243554] border-[1px]'></p>
+
+      <div className="">
+        <div className="flex justify-between text-right mx-12 my-20">
           <Link className="" href="https://funddme.netlify.app/" target="blank">
             <Image
               className="w-[600px] blur-sm hover:blur-none delay-1000 transition-transform"

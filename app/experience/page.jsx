@@ -4,7 +4,7 @@ import Link from "next/link";
 import { AiFillCaretRight } from "react-icons/ai";
 const Experience = () => {
   return (
-    <div className="px-40 relative left-80">
+    <div className="px-40  relative left-80">
       <div className="my-10">
         <h1 className="flex" >
           <span className="font-mono font-thin text-[24px] text-[#64ffda]">

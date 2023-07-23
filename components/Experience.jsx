@@ -4,7 +4,7 @@ import Link from "next/link";
 import { AiFillCaretRight } from "react-icons/ai";
 const Experience = () => {
   return (
-    <div className="px-40 relative left-80">
+    <div className="px-40  relative left-80" id='experience'>
       <div className="my-10">
         <h1 >
           <span className="font-mono font-thin text-[24px] text-[#64ffda]">
@@ -15,7 +15,7 @@ const Experience = () => {
           </span>{" "}
         </h1>
       </div>
-      <p className='w-[300px] border-[#243554] border-[1px]'></p>
+      <p className='w-[300px] relative bottom-12 left-[330px] border-[#243554] border-[1px]'></p>
 
 
       <div className="text-left">

@@ -8,7 +8,7 @@ import Link from "next/link";
 const Nav = () => {
 
   return (
-    <div className="navbar   px-40 shadow-lg ">
+    <div className="navbar w-[1536px]  px-40 shadow-lg ">
       <div className="flex justify-between ">
         
         <a href="/" className="">
