@@ -8,7 +8,7 @@ import  Main  from '../components/Main'
 import Info from '../components/Info'
 import Experience from '../components/Experience'
 import MoreProjects from '../components/MoreProjects'
-import InfoMail from '../components/InfoMail'
+// import InfoMail from '../components/InfoMail'
 import Link from 'next/link'
 
 import About from '../components/About'

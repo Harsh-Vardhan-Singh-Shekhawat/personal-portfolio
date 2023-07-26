@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 // import Logo from "../public/Images/logo.png";
-import IconHex from "./Icons/Hex";
+// import IconHex from "./Icons/Hex";
 import { BsHexagon } from "react-icons/bs";
 import Link from "next/link";
 
@@ -34,13 +34,13 @@ const Nav = () => {
             </ul>
           </div>
 
-          <a
+          <Link
             className="btnhover text-sm tracking-wide m-auto mx-2 cursor-pointer flex justify-center hover:shadow-md  items-center rounded-[4px] border-[1px] w-20 h-10 text-center border-[#64ffda] text-[#64ffda]"
             href="/static/resume.pdf"
             target="_blank"
           >
-            <div>Resume</div>
-          </a>
+            <p>Resume</p>
+          </Link>
         </div>
       </div>
     </div>

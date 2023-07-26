@@ -15,7 +15,7 @@ const Projects = () => {
           </span>
           <span className="font-semibold text-[#ccd6f6] text-3xl">
             {" "}
-            Some Things I've built
+            Some Things I have built
           </span>{" "}
         </h1>
       </div>
@@ -44,16 +44,16 @@ const Projects = () => {
               social cause through fundraiser using metamask wallet. They can
               even start their own fundraiser to raise fund.
             </div>
-            <p className=" text-[#a7b2d0] text-[13px] my-4 font-mono">
+            <div className=" text-[#a7b2d0] text-[13px] my-4 font-mono">
               <ul className="flex justify-end">
                 <li className="mx-2">React.js</li>
                 <li className="mx-2">Solidity</li>
                 <li className="mx-2">Ethers</li>
                 <li className="ml-2">Tailwindcss</li>
               </ul>
-            </p>
+            </div>
             <div className="grid place-items-end">
-              <Link href="https://github.com/Harsh-Vardhan-Singh-Shekhawat/Eth-Ease---A-smart-contract-app">
+            <Link href="https://github.com/Harsh-Vardhan-Singh-Shekhawat/FundMe---A-fundraiser">
                 <FiGithub className="text-xl text-[#8892b0] " />
               </Link>
             </div>
@@ -79,16 +79,17 @@ const Projects = () => {
             <div className="w-[500px] bg-[#112240]  p-5 rounded-[4px] text-[#ccd6f6] text-[15px]">
               A decentralized application will allows you to send cryptocurrency on Sepolia network all over the world using metamask. 
             </div>
-            <p className=" text-[#a7b2d0] text-[13px] my-4 font-mono">
+            <div className=" text-[#a7b2d0] text-[13px] my-4 font-mono">
               <ul className="flex ">
                 <li className="mr-2">React.js</li>
                 <li className="mx-2">Solidity</li>
                 <li className="mx-2">Ethers</li>
                 <li className="ml-2">Tailwindcss</li>
               </ul>
-            </p>
+            </div>
             <div className="grid place-items-start">
-              <Link href="https://github.com/Harsh-Vardhan-Singh-Shekhawat/FundMe---A-fundraiser">
+              
+              <Link href="https://github.com/Harsh-Vardhan-Singh-Shekhawat/Eth-Ease---A-smart-contract-app">
                 <FiGithub className="text-xl text-[#8892b0] " />
               </Link>
             </div>

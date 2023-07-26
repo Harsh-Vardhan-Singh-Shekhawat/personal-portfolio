@@ -3,7 +3,7 @@ import fundmepreview from "../../public/fundme.png";
 import Image from "next/image";
 import Link from "next/link";
 import { FiGithub } from "react-icons/fi";
-import etheasepreview from '../../public/ethease.png'
+import etheasepreview from "../../public/ethease.png";
 
 const Projects = () => {
   return (
@@ -15,12 +15,11 @@ const Projects = () => {
           </span>
           <span className="font-semibold text-[#ccd6f6] text-3xl">
             {" "}
-            Some Things I've built
+            Some Things I have built
           </span>{" "}
         </h1>
       </div>
-      <p className='w-[300px] relative bottom-2 left-[380px] border-[#243554] border-[1px]'></p>
-
+      <p className="w-[300px] relative bottom-2 left-[380px] border-[#243554] border-[1px]"></p>
 
       <div className="my-10">
         <div className="flex justify-between text-right mx-12 mb-40">
@@ -61,7 +60,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex flex-row-reverse justify-between mx-12 my-40">
-          <Link className="" href="https://eth-ease.netlify.app/" target="blank">
+          <Link
+            className=""
+            href="https://eth-ease.netlify.app/"
+            target="blank"
+          >
             <Image
               className="w-[600px] blur-sm hover:blur-none delay-1000 ease-in-out transition-transform"
               src={etheasepreview}
@@ -74,11 +77,12 @@ const Projects = () => {
             </h3>
             <Link href="https://eth-ease.netlify.app/" target="blank">
               <h1 className="text-2xl font-semibold text-[#ccd6f6] my-2">
-                Eth Ease  
+                Eth Ease
               </h1>
             </Link>
             <div className="w-[500px] bg-[#112240]  p-5 rounded-[4px] text-[#ccd6f6] text-[15px]">
-              A decentralized application will allows you to send cryptocurrency on Sepolia network all over the world using metamask. 
+              A decentralized application will allows you to send cryptocurrency
+              on Sepolia network all over the world using metamask.
             </div>
             <p className=" text-[#a7b2d0] text-[13px] my-4 font-mono">
               <ul className="flex ">

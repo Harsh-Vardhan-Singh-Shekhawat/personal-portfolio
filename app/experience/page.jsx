@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Link from "next/link";
 import { AiFillCaretRight } from "react-icons/ai";
 const Experience = () => {
@@ -11,7 +11,7 @@ const Experience = () => {
             02.{" "}
           </span>
           <span className="font-semibold text-[#ccd6f6] text-3xl">
-            Where I've Worked
+            Where I have Worked
           </span>{" "}
         </h1>
       </div>

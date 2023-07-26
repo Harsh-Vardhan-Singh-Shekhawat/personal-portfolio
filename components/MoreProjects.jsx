@@ -12,10 +12,10 @@ const MoreProjects = () => {
         </h3>
         <div className="mx-24 grid grid-cols-3 grid-flow-row gap-10">
         
-          <Link
+          {/* <Link
             className="transition transform hover:-translate-y-4 motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="/"
-          >
+          > */}
             <div className="w-[325px] h-[350px] text-start bg-[#112240] rounded-[4px] p-6 ">
               <div className="flex items-center justify-between my-2">
                 <span className="">
@@ -41,21 +41,21 @@ const MoreProjects = () => {
                   A personal portfolio has been developed and designed to
                   showcase my professional background
                 </p>
-                <p>
-                  <ul className="w-[100px] font-mono grid gap-2 grid-flow-col text-xs my-6 text-[#a7b2d0]">
+                <div>
+                  <ul className="w-[150px] font-mono grid gap-2 grid-flow-col text-xs my-6 text-[#a7b2d0]">
                     <li>Next.js</li>
                     <li>Tailwindcss</li>
                   </ul>
-                </p>
+                </div>
               </div>
             </div>
-          </Link>
+          {/* </Link> */}
 
-          <Link
+          {/* <Link
             className="transition transform hover:-translate-y-4 motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="https://funddme.netlify.app/"
-          >
-            <div className="w-[325px] h-[350px] text-start bg-[#112240] rounded-[4px] p-6 ">
+          > */}
+            <div className="w-[325px] h-[350px] text-start bg-[#112240] overflow-x-visible rounded-[4px] p-6 ">
               <div className="flex items-center justify-between my-2">
                 <span className="">
                   <FiFolder className="text-4xl text-[#64ffda]" />
@@ -81,22 +81,22 @@ const MoreProjects = () => {
                   Ethereum-based fundraising and donations, ensuring secure and
                   transparent transactions within a trustless environment.
                 </p>
-                <p>
+                <div>
                   <ul className="flex grid gap-2 grid-flow-col font-mono text-xs my-6 text-[#a7b2d0]">
                     <li>React.js</li>
                     <li>Solidity</li>
                     <li>Hardhat</li>
                     <li>Tailwindcss</li>
                   </ul>
-                </p>
+                </div>
               </div>
             </div>
-          </Link>
+          {/* </Link> */}
 
-          <Link
+          {/* <Link
             className="transition transform hover:-translate-y-4 motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="https://eth-ease.netlify.app/"
-          >
+          > */}
             <div className="w-[325px] h-[350px] text-start bg-[#112240] rounded-[4px] p-6 ">
               <div className="flex items-center justify-between my-2">
                 <span className="">
@@ -121,22 +121,22 @@ const MoreProjects = () => {
                 <p className="text-[#a8b2d1] my-2">
                   A decentralized blockchain application for sending ethereum using metamask through out the world.
                 </p>
-                <p>
-                  <ul className="w-[100px] font-mono grid gap-2 grid-flow-col text-xs my-6 text-[#a7b2d0]">
+                <div>
+                  <ul className="w-[250px] font-mono grid gap-2 grid-flow-col text-xs my-6 text-[#a7b2d0]">
                     <li>Next.js</li>
                     <li>Solidity</li>
                     <li>Hardhat</li>
                     <li>Tailwindcss</li>
                   </ul>
-                </p>
+                </div>
               </div>
             </div>
-          </Link>
+          {/* </Link> */}
 
-          <Link
+          {/* <Link
             className="transition transform hover:-translate-y-4 motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="https://googledoc.netlify.app"
-          >
+          > */}
             <div className="w-[325px] h-[350px] text-start bg-[#112240] rounded-[4px] p-6 ">
               <div className="flex items-center justify-between my-2">
                 <span className="">
@@ -144,7 +144,7 @@ const MoreProjects = () => {
                 </span>
                 <div className="w-[50px] flex justify-between">
                 <Link
-                  href="https://github.com/Harsh-Vardhan-Singh-Shekhawat/personal-portfolio"
+                  href="https://github.com/Harsh-Vardhan-Singh-Shekhawat/GoogleDocsClone"
                   target="blank"
                 >
                   <FiGithub className="text-xl text-[#ccd6f6]" />
@@ -163,27 +163,27 @@ const MoreProjects = () => {
                   allowing users to create and edit document files along with
                   dowloading.
                 </p>
-                <p className="relative bottom-0">
+                <div className="relative bottom-0">
                   <ul className="w-[140px] flex grid gap-1 grid-flow-col font-mono text-xs my-6 text-[#a7b2d0]">
                     <li>React.js</li>
                     <li>Tailwindcss</li>
                   </ul>
-                </p>
+                </div>
               </div>
             </div>
-          </Link>
-
+          {/* </Link> */}
+{/* 
           <Link
             className="transition transform hover:-translate-y-4 motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="https://github.com/Harsh-Vardhan-Singh-Shekhawat/AAVE-Liquidity-Protocol"
-          >
+          > */}
             <div className="w-[325px] h-[350px] text-start bg-[#112240] rounded-[4px] p-6 ">
               <div className="flex items-center justify-between my-2">
                 <span className="">
                   <FiFolder className="text-4xl text-[#64ffda]" />
                 </span>
                 <Link
-                  href="https://github.com/Harsh-Vardhan-Singh-Shekhawat/personal-portfolio"
+                  href="https://github.com/Harsh-Vardhan-Singh-Shekhawat/AAVE-Liquidity-Protocol"
                   target="blank"
                 >
                   <FiGithub className="text-xl text-[#ccd6f6]" />
@@ -197,27 +197,27 @@ const MoreProjects = () => {
                   A smart contract built for lending and borrowing
                   cryptocurrency in lieu of interest earn on them.
                 </p>
-                <p>
+                <div>
                   <ul className="flex justify-start grid gap-2 grid-flow-col font-mono text-xs my-6 text-[#a7b2d0]">
                     <li>Solidity</li>
                     <li>@aave/core-v3</li>
                   </ul>
-                </p>
+                </div>
               </div>
             </div>
-          </Link>
+          {/* </Link> */}
 
-          <Link
+          {/* <Link
             className="transition transform hover:-translate-y-4 motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="https://github.com/Harsh-Vardhan-Singh-Shekhawat/mySubGraph"
-          >
+          > */}
             <div className="w-[325px] h-[350px] text-start bg-[#112240] rounded-[4px] p-6 ">
               <div className="flex items-center justify-between my-2">
                 <span className="">
                   <FiFolder className="text-4xl text-[#64ffda]" />
                 </span>
                 <Link
-                  href="https://github.com/Harsh-Vardhan-Singh-Shekhawat/personal-portfolio"
+                  href="https://github.com/Harsh-Vardhan-Singh-Shekhawat/mySubGraph"
                   target="blank"
                 >
                   <FiGithub className="text-xl text-[#ccd6f6]" />
@@ -231,16 +231,16 @@ const MoreProjects = () => {
                   A subgraph using GrapghQl for fetching blockchain data on
                   basis of requirement on subgraph studio using polygon network
                 </p>
-                <p>
+                <div>
                   <ul className="flex justify-start grid gap-2 grid-flow-col relative bottom-[-20px] font-mono text-xs my-6 text-[#a7b2d0]">
                     <li>Solidity</li>
                     <li>Typescript</li>
                     <li>@graphprotocol</li>
                   </ul>
-                </p>
+                </div>
               </div>
             </div>
-          </Link>
+          {/* </Link> */}
         </div>
       </div>
     </div>

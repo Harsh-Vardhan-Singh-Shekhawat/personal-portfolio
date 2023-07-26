@@ -10,9 +10,9 @@ const About = () => {
       <p className='w-[300px] relative bottom-2 left-[200px] border-[#243554] border-[1px]'></p>
       <div className='text-[#8892b0] w-[900px]'>
         <p className='my-10'>
-        Hi, I'm Harsh, and I'm passionate about exploring the intersection of finance and technology. My focus is on web development and blockchain development, and I've built several web applications using various technologies. Currently, I'm directing my attention towards blockchain development in the DeFi space.
+        Hi, I am Harsh, and I am passionate about exploring the intersection of finance and technology. My focus is on web development and blockchain development, and I have built several web applications using various technologies. Currently, I am directing my attention towards blockchain development in the DeFi space.
         </p>
-        <p>Here are a few technologies I’ve been working with recently:</p>
+        <p>Here are a few technologies I have been working with recently:</p>
         <div>
             <ul className='w-1/2 mt-4 grid leading-loose tracking-wide grid-rows-4 mx-4 font-mono text-sm  list:text-[#8892b0]  grid-flow-col'> 
                 <li className='flex '><span className='text-[#64ffda] mt-1.5  '><AiFillCaretRight className='text-sm' /></span><span className='font-thin'>Javascript</span></li>
