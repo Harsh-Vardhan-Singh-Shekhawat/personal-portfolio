@@ -28,8 +28,8 @@ export default function Home() {
       <Info />
       {/* <InfoMail /> */}
       
-      <footer className='foot text-center text-sm py-6 animate-pulse font-mono text-[#8892b0]  transition duration-300 ease-in-out font-thin'>
-        <Link className='hover:text-[#64ffda] ' href='https://github.com/Harsh-Vardhan-Singh-Shekhawat'>
+      <footer className='foot text-center text-sm py-6 animate-pulse font-mono text-[#8892b0] '>
+        <Link className='hover:text-[#64ffda] transition ease-in-out  hover:scale-90 duration-300 ' href='https://github.com/Harsh-Vardhan-Singh-Shekhawat'>
           Designed & Built by Harsh Shekhawat
         </Link>
       </footer>

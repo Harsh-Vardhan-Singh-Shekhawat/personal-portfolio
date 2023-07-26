@@ -10,13 +10,13 @@ const MoreProjects = () => {
         <h3 className="font-semibold text-[#ccd6f6]  mb-20 text-3xl">
           More Projects
         </h3>
-        <div className="mx-24 grid grid-cols-3 grid-flow-row gap-10">
+        <div className="mx-24 py-4 grid grid-cols-3 grid-flow-row gap-10">
         
           {/* <Link
             className="transition transform hover:-translate-y-4 motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="/"
           > */}
-            <div className="w-[325px] h-[350px] text-start bg-[#112240] rounded-[4px] p-6 ">
+            <div className="w-[325px] h-[350px] text-start bg-[#112240] transition delay-75 hover:-translate-y-3 ease-in-out rounded-[4px] p-6 ">
               <div className="flex items-center justify-between my-2">
                 <span className="">
                   <FiFolder className="text-4xl text-[#64ffda]" />
@@ -55,7 +55,7 @@ const MoreProjects = () => {
             className="transition transform hover:-translate-y-4 motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="https://funddme.netlify.app/"
           > */}
-            <div className="w-[325px] h-[350px] text-start bg-[#112240] overflow-x-visible rounded-[4px] p-6 ">
+            <div className="w-[325px] h-[350px] text-start bg-[#112240] transition delay-75 hover:-translate-y-3 overflow-x-visible rounded-[4px] p-6 ">
               <div className="flex items-center justify-between my-2">
                 <span className="">
                   <FiFolder className="text-4xl text-[#64ffda]" />
@@ -97,8 +97,8 @@ const MoreProjects = () => {
             className="transition transform hover:-translate-y-4 motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="https://eth-ease.netlify.app/"
           > */}
-            <div className="w-[325px] h-[350px] text-start bg-[#112240] rounded-[4px] p-6 ">
-              <div className="flex items-center justify-between my-2">
+            <div className="w-[325px] h-[350px] text-start transition delay-75 hover:-translate-y-3 bg-[#112240] rounded-[4px] p-6 ">
+              <div className="flex items-center justify-between my-2 pr-2">
                 <span className="">
                   <FiFolder className="text-4xl text-[#64ffda]" />
                 </span>
@@ -137,7 +137,7 @@ const MoreProjects = () => {
             className="transition transform hover:-translate-y-4 motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="https://googledoc.netlify.app"
           > */}
-            <div className="w-[325px] h-[350px] text-start bg-[#112240] rounded-[4px] p-6 ">
+            <div className="w-[325px] h-[350px] text-start bg-[#112240] transition delay-75 hover:-translate-y-3 rounded-[4px] p-6 ">
               <div className="flex items-center justify-between my-2">
                 <span className="">
                   <FiFolder className="text-4xl text-[#64ffda]" />
@@ -177,7 +177,7 @@ const MoreProjects = () => {
             className="transition transform hover:-translate-y-4 motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="https://github.com/Harsh-Vardhan-Singh-Shekhawat/AAVE-Liquidity-Protocol"
           > */}
-            <div className="w-[325px] h-[350px] text-start bg-[#112240] rounded-[4px] p-6 ">
+            <div className="w-[325px] h-[350px] text-start bg-[#112240] transition delay-75 hover:-translate-y-3 rounded-[4px] p-6 ">
               <div className="flex items-center justify-between my-2">
                 <span className="">
                   <FiFolder className="text-4xl text-[#64ffda]" />
@@ -211,8 +211,8 @@ const MoreProjects = () => {
             className="transition transform hover:-translate-y-4 motion-reduce:transition-none motion-reduce:hover:transform-none"
             href="https://github.com/Harsh-Vardhan-Singh-Shekhawat/mySubGraph"
           > */}
-            <div className="w-[325px] h-[350px] text-start bg-[#112240] rounded-[4px] p-6 ">
-              <div className="flex items-center justify-between my-2">
+            <div className="w-[325px] h-[350px] text-start bg-[#112240] transition delay-75 hover:-translate-y-3 rounded-[4px] p-6 ">
+              <div className="flex items-center justify-between my-2 pr-2">
                 <span className="">
                   <FiFolder className="text-4xl text-[#64ffda]" />
                 </span>
@@ -228,8 +228,8 @@ const MoreProjects = () => {
                   mySubGraph
                 </h1>
                 <p className="text-[#a8b2d1] my-2">
-                  A subgraph using GrapghQl for fetching blockchain data on
-                  basis of requirement on subgraph studio using polygon network
+                  A subgraph using GrapghQl for fetching blockchain data
+                  basis on requirement on subgraph studio using polygon network.
                 </p>
                 <div>
                   <ul className="flex justify-start grid gap-2 grid-flow-col relative bottom-[-20px] font-mono text-xs my-6 text-[#a7b2d0]">

@@ -1,7 +1,5 @@
 import React from "react";
-import Image from "next/image";
-// import Logo from "../public/Images/logo.png";
-// import IconHex from "./Icons/Hex";
+// import Image from "next/image";
 import { BsHexagon } from "react-icons/bs";
 import Link from "next/link";
 
@@ -20,7 +18,7 @@ const Nav = () => {
           <div className="flex items-center">
             <ul className="flex">
               <li className=" tracking-wide font-light text-[#ccd6f6] my-1 mx-4 transition duration-300 ease-in-out cursor-pointer text-sm hover:text-[#64ffda]">
-                <span className=" text-[#64ffda]">01. </span><Link href='/about' >About</Link>
+                <span className=" text-[#64ffda]">01. </span><Link href='/about'  >About</Link>
               </li>
               <li className="tracking-wide font-light text-[#ccd6f6] my-1 mx-4 transition duration-300 ease-in-out cursor-pointer text-sm hover:text-[#64ffda]">
                 <span className="text-[#64ffda]">02. </span><Link href='/experience'>Experience</Link>
@@ -35,7 +33,7 @@ const Nav = () => {
           </div>
 
           <Link
-            className="btnhover text-sm tracking-wide m-auto mx-2 cursor-pointer flex justify-center hover:shadow-md  items-center rounded-[4px] border-[1px] w-20 h-10 text-center border-[#64ffda] text-[#64ffda]"
+            className="btnhover text-sm tracking-wide m-auto mx-2 cursor-pointer flex justify-center transition ease-in-out  hover:scale-90 duration-300 items-center rounded-[4px] border-[1px] w-20 h-10 text-center border-[#64ffda] text-[#64ffda]"
             href="/static/resume.pdf"
             target="_blank"
           >

@@ -15,7 +15,7 @@ const Contact = () => {
       </div>
 
       <a className="w-[150px]" href="mailto:harshshekhawat963@gmail.com" target="blank">
-        <p className="font-mono w-[150px] hover:scale-90  text-sm relative top-10 tracking-wide m-auto rounded-[4px] border-[1px] flex justify-center items-center rounded-[4px] border-[1px] h-[50px] text-center h-10  border-[#64ffda] text-[#64ffda]">
+        <p className="font-mono w-[150px] hover:scale-90  text-sm relative top-10 tracking-wide m-auto rounded-[4px] border-[1px] flex justify-center items-center rounded-[4px] border-[1px] h-[50px] text-center h-10  border-[#64ffda] text-[#64ffda] transition ease-in-out  hover:scale-90 duration-300 ">
           Mail Me Here
         </p>
       </a>

@@ -23,7 +23,7 @@ const Main = () => {
           learn new ways to improve my abilities as a developer.
         </p>
       </div>
-      <div className="font-mono  mx-40 text-sm tracking-wide  rounded-[4px] border-[1px] flex justify-center items-center rounded-[4px] border-[1px] w-[150px] h-[50px] text-center cursor-pointer w-20 h-10 text-center border-[#64ffda] text-[#64ffda] transition ease-in-out  hover:scale-90 duration-300">
+      <div className="font-mono  mx-40 text-sm tracking-wide  rounded-[4px] border-[1px] flex justify-center items-center rounded-[4px] border-[1px] w-[150px] h-[50px] text-center cursor-pointer w-20 h-10 text-center border-[#64ffda] text-[#64ffda]  transition ease-in-out hover:scale-90 duration-300 ">
         <Link className="w-[200px]" href="mailto:harshshekhawat963@gmail.com">
           Get In Touch
         </Link>
